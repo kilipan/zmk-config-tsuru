@@ -15,7 +15,7 @@
 
             bindings = <
                 &kp Q          &kp W          &kp E          &kp R          &kp T                         &kp Y          &kp U          &kp I          &kp O          &kp P
-                &hl LCTRL A    &hl LALT S     &hl LGUI D     &hl LSHFT F    &hl RALT G                    &hr RALT H     &hr RSHFT J    &hr RGUI K     &hr LALT L     &hr SEMICOLON
+                &hl LCTRL A    &hl LALT S     &hl LGUI D     &hl LSHFT F    &hl RALT G                    &hr RALT H     &hr RSHFT J    &hr RGUI K     &hr LALT L     &hr RCTL SEMICOLON
                 &my_lt NUM Z   &kp X          &kp C          &kp V          &my_lt NAV B   &kp SPC        &my_lt SYM N   &kp M          &kp COMMA      &kp DOT        &my_lt FUN SLASH
             >;
         };
