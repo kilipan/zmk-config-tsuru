@@ -10,13 +10,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        aptmak {
-            label = "APT";
+        qwerty {
+            label = "BAD";
 
             bindings = <
-                &kp V          &kp W          &kp F          &kp P          &kp B                         &kp J          &kp L          &kp U          &kp Y          &hr RCTRL O
-                &hl LCTRL R    &hl LALT S     &hl LGUI T     &hl LSHFT H    &hl RALT K                    &hr RALT X     &hr RSHFT N    &hr RGUI A     &hr LALT I     &hr RCTRL O
-                &my_lt NUM SQT &kp C          &kp G          &kp D          &my_lt NAV SPC &kp C_MUTE     &my_lt SYM E   &kp M          &comsem        &dotcol        &my_lt FUN TAB
+                &kp Q          &kp W          &kp E          &kp R          &kp T                         &kp Y          &kp U          &kp I          &kp O          &kp P
+                &hl LCTRL A    &hl LALT S     &hl LGUI D     &hl LSHFT F    &hl RALT G                    &hr RALT H     &hr RSHFT J    &hr RGUI K     &hr LALT L     &hr SEMICOLON
+                &my_lt NUM Z   &kp X          &kp C          &kp V          &my_lt NAV B   &kp SPC        &my_lt SYM N   &kp M          &kp COMMA      &kp DOT        &my_lt FUN SLASH
             >;
         };
         numbers {

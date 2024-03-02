@@ -1,7 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-#define APT 0
+#define BAD 0
 #define NUM 1
 #define NAV 2
 #define SYM 3
@@ -50,13 +50,6 @@ combo_##NAME { \
     combos {
         compatible = "zmk,combos";
 /* usually on base layer */
-        COMBO(q, &kp Q, 2 3)
-        COMBO(z, &kp Z, 21 22)
-        COMBO(v, &kp V, 1 2)
-        COMBO(_ae, &kp RA(A), 17 26)
-        COMBO(_oe, &kp RA(O), 19 26)
-        COMBO(_ue, &kp RA(U), 7 26)
-        COMBO(_sz, &kp RA(S), 11 24)
         COMBO(sch, &macro_sch, 1 3)
         COMBO(slash, &kp SLASH, 28 29)
         COMBO(dash, &kp MINUS, 27 28)
@@ -78,37 +71,6 @@ combo_##NAME { \
         COMBO(bspc, &kp BSPC, 6 7)
         COMBO(del, &kp DEL, 7 8)
         COMBO(delword, &kp LC(BSPC), 6 8)
-/* alternative shifting */
-        /*
-        COMBO(Sq, &kp LS(Q), 1 2 25)
-        COMBO(Sz, &kp LS(Z), 18 19 25)
-        COMBO(Sv, &kp LS(V), 0 1 25)
-        COMBO(Sw, &kp LS(W), 0 25)
-        COMBO(Sf, &kp LS(F), 1 25)
-        COMBO(Sp, &kp LS(P), 2 25)
-        COMBO(Sb, &kp LS(B), 3 25)
-        COMBO(Sj, &kp LS(J), 4 26)
-        COMBO(Sl, &kp LS(L), 5 26)
-        COMBO(Su, &kp LS(U), 6 26)
-        COMBO(Sy, &kp LS(Y), 7 26)
-        COMBO(Sr, &kp LS(R), 8 25)
-        COMBO(Ss, &kp LS(S), 9 25)
-        COMBO(St, &kp LS(T), 10 25)
-        COMBO(Sh, &kp LS(H), 11 25)
-        COMBO(Sk, &kp LS(K), 12 25)
-        COMBO(Sx, &kp LS(X), 13 26)
-        COMBO(Sn, &kp LS(N), 14 26)
-        COMBO(Sa, &kp LS(A), 15 26)
-        COMBO(Si, &kp LS(I), 16 26)
-        COMBO(So, &kp LS(O), 17 26)
-        COMBO(Sc, &kp LS(C), 18 25)
-        COMBO(Sg, &kp LS(G), 19 25)
-        COMBO(Sd, &kp LS(D), 20 25)
-        COMBO(Sm, &kp LS(M), 21 26)
-        COMBO(Scomma, &kp SEMI, 22 26)
-        COMBO(Sdot, &kp COLON, 23 26)
-        COMBO(Se, &kp LS(E), 14 15 26)
-        //*/
     };
 };
 
